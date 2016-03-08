@@ -7,6 +7,10 @@
 
 ` *QQ:276635035`
 
+// 截图
+
+![](https://github.com/huzhiqin/HZQRegexTestter/blob/master/正则表达式验证/ImageCache/screenshot.png)
+
 使用方法：
 ```oc 
 /**
