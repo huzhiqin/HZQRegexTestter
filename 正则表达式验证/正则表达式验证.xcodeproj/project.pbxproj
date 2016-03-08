@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639013041C8E78C9009218EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 639013031C8E78C9009218EA /* main.m */; };
+		639013071C8E78C9009218EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 639013061C8E78C9009218EA /* AppDelegate.m */; };
+		6390130A1C8E78C9009218EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639013091C8E78C9009218EA /* ViewController.m */; };
+		6390130D1C8E78C9009218EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6390130B1C8E78C9009218EA /* Main.storyboard */; };
+		6390130F1C8E78C9009218EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6390130E1C8E78C9009218EA /* Assets.xcassets */; };
+		639013121C8E78C9009218EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639013101C8E78C9009218EA /* LaunchScreen.storyboard */; };
+		6390131C1C8E793D009218EA /* HZQRegexTestter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6390131B1C8E793D009218EA /* HZQRegexTestter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		639012FF1C8E78C9009218EA /* 正则表达式验证.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "正则表达式验证.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639013031C8E78C9009218EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		639013051C8E78C9009218EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		639013061C8E78C9009218EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		639013081C8E78C9009218EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		639013091C8E78C9009218EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6390130C1C8E78C9009218EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6390130E1C8E78C9009218EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639013111C8E78C9009218EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639013131C8E78C9009218EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6390131A1C8E793D009218EA /* HZQRegexTestter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZQRegexTestter.h; sourceTree = "<group>"; };
+		6390131B1C8E793D009218EA /* HZQRegexTestter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZQRegexTestter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639012FC1C8E78C9009218EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		639012F61C8E78C9009218EA = {
+			isa = PBXGroup;
+			children = (
+				639013011C8E78C9009218EA /* 正则表达式验证 */,
+				639013001C8E78C9009218EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639013001C8E78C9009218EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639012FF1C8E78C9009218EA /* 正则表达式验证.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639013011C8E78C9009218EA /* 正则表达式验证 */ = {
+			isa = PBXGroup;
+			children = (
+				639013191C8E791E009218EA /* HZQRegexTestter */,
+				639013051C8E78C9009218EA /* AppDelegate.h */,
+				639013061C8E78C9009218EA /* AppDelegate.m */,
+				639013081C8E78C9009218EA /* ViewController.h */,
+				639013091C8E78C9009218EA /* ViewController.m */,
+				6390130B1C8E78C9009218EA /* Main.storyboard */,
+				6390130E1C8E78C9009218EA /* Assets.xcassets */,
+				639013101C8E78C9009218EA /* LaunchScreen.storyboard */,
+				639013131C8E78C9009218EA /* Info.plist */,
+				639013021C8E78C9009218EA /* Supporting Files */,
+			);
+			path = "正则表达式验证";
+			sourceTree = "<group>";
+		};
+		639013021C8E78C9009218EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				639013031C8E78C9009218EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		639013191C8E791E009218EA /* HZQRegexTestter */ = {
+			isa = PBXGroup;
+			children = (
+				6390131A1C8E793D009218EA /* HZQRegexTestter.h */,
+				6390131B1C8E793D009218EA /* HZQRegexTestter.m */,
+			);
+			path = HZQRegexTestter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639012FE1C8E78C9009218EA /* 正则表达式验证 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639013161C8E78C9009218EA /* Build configuration list for PBXNativeTarget "正则表达式验证" */;
+			buildPhases = (
+				639012FB1C8E78C9009218EA /* Sources */,
+				639012FC1C8E78C9009218EA /* Frameworks */,
+				639012FD1C8E78C9009218EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "正则表达式验证";
+			productName = "正则表达式验证";
+			productReference = 639012FF1C8E78C9009218EA /* 正则表达式验证.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639012F71C8E78C9009218EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HZQ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HZQ;
+				TargetAttributes = {
+					639012FE1C8E78C9009218EA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 639012FA1C8E78C9009218EA /* Build configuration list for PBXProject "正则表达式验证" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639012F61C8E78C9009218EA;
+			productRefGroup = 639013001C8E78C9009218EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639012FE1C8E78C9009218EA /* 正则表达式验证 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639012FD1C8E78C9009218EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639013121C8E78C9009218EA /* LaunchScreen.storyboard in Resources */,
+				6390130F1C8E78C9009218EA /* Assets.xcassets in Resources */,
+				6390130D1C8E78C9009218EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639012FB1C8E78C9009218EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6390130A1C8E78C9009218EA /* ViewController.m in Sources */,
+				6390131C1C8E793D009218EA /* HZQRegexTestter.m in Sources */,
+				639013071C8E78C9009218EA /* AppDelegate.m in Sources */,
+				639013041C8E78C9009218EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6390130B1C8E78C9009218EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6390130C1C8E78C9009218EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639013101C8E78C9009218EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639013111C8E78C9009218EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639013141C8E78C9009218EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		639013151C8E78C9009218EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639013171C8E78C9009218EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "正则表达式验证/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WinHope.demo.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		639013181C8E78C9009218EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "正则表达式验证/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WinHope.demo.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639012FA1C8E78C9009218EA /* Build configuration list for PBXProject "正则表达式验证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639013141C8E78C9009218EA /* Debug */,
+				639013151C8E78C9009218EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639013161C8E78C9009218EA /* Build configuration list for PBXNativeTarget "正则表达式验证" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639013171C8E78C9009218EA /* Debug */,
+				639013181C8E78C9009218EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639012F71C8E78C9009218EA /* Project object */;
+}
