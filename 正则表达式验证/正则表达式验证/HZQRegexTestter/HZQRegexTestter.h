@@ -31,7 +31,7 @@
 /**
  *  手机号码验证
  */
-+ (BOOL)validatePhone:(NSString *)phone;
++ (BOOL)validatePhone:(NSString *)mobile;
 
 /**
  *  身份证号码验证
